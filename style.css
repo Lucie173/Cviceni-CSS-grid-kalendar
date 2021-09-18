@@ -8,3 +8,27 @@ body {
 
 /* ---------------------------------------------------- */
 
+.kalendar {
+	margin: 0;
+	padding:0;
+	display: grid;
+	grid-template-columns: repeat(7,50px);
+	grid-template-rows: repeat(6, 50px);
+	gap: 3px;
+	list-style: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+.zahlavi {
+	color: white;
+	background-color: lightsalmon;	
+	padding: 3px;
+}
+
+li {
+	text-align: center;
+	
+}
